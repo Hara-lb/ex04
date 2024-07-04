@@ -4,9 +4,14 @@
 
 int main() {
     int heads = 0;
-    int tails = 0; 
+    int tails = 0;
+    char name[100]; 
 
     srand(time(0));
+
+    printf("Who are you?\n");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
 
     printf("Tossing a coin...\n");
 
